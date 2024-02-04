@@ -1,3 +1,7 @@
+#This will launch a tkinter window that will display the current time and prices of the symbols used as an example, it will automatically refresh every 30 seconds with the updated time and prices, after the initial launch.
+#It will also print a message in the terminal once it has refreshed. 
+
+
 import requests
 import json
 from datetime import datetime, timezone
